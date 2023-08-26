@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 64px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 32px 64px;
+    
+}
+
+.bmi-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 1024px;
+    height: 100vh;
+    /* margin-bottom: 32px; */
+    /* text-align: center; */
+}
+
+.bmi-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 64px;
+    justify-content: center;
+    align-items: left;
+    /* background-color: aqua; */
+
+}
+
+.bmi-info h1 {
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+
+.bmi-info p {
+    padding: 0px 64px;
+    margin-bottom: 16px;
+}
+
+.bmi-cal-area {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 100%;
+    background-color:  #f3f5f5;
+    align-items: center;
+}
+
+.bmi-cal {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 640px;
+    /* background-color: #055405; */
+}
+
+
+.bmi-cal label, .bmi-cal input, .bmi-cal button {
+    /* margin-bottom: 4px; */
+    /* padding: 2px; */
+    font-size: 1.2rem;
+    border: none;
+}
+
+.bmi-cal label {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bmi-cal input {
+    background-color: transparent;
+    border-bottom: 1px solid #92e0e0;
+    padding: 8px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.bmi-cal input:focus {
+    outline: none;
+    scale: 1.1;
+}
+
+.bmi-cal button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 64px;
+    margin-top: 24px;
+    /* border: 1px solid; */
+    padding: 24px 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #fff;
+
+    /* background-image: linear-gradient(to right, #c67fa7, #b47fac, #a080ad, #8e80ab, #7d7fa6, #7383aa, #6887ab, #5e8bab, #4f96b3, #3ea1b6, #33abb4, #38b5ad); */
+    background-image: linear-gradient(to right, #56b1ab, #4fa8b0, #519eb1, #5994ae, #628aa8, #618aa9, #5f8baa, #5e8bab, #4f96b3, #3ea1b6, #33abb4, #38b5ad);
+
+}
+
+.bmi-cal span {
+    margin-left: 36px;
+    font-size: 1.75rem;
+}
+
+.bmi-cal button:hover {
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25);
+    background-color: #000;
+    background-image: none;
+    /* transition: ease-in 10ms; */
+}
+
+.sumBMI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 128px;
+    margin-top: 32px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.text-sum {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.detail-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #3ea1b6; */
+    /* border: 1px solid; */
+    margin-top: 32px;
+    padding: 0 64px;
+}
+
+.detail-card {
+    width: 100%;
+    border-radius: 5px;
+    /* border: 1px solid; */
+    padding: 24px 64px;
+}
+
+.detail-card h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.detail-card h3 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
